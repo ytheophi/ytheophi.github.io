@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Yovan Theophilus">
+  <meta name="description" content="Contact Info Page">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <title>Contact</title>
+  <style>
+
+    body, html {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    main {
+      text-align: center;
+      width: 100%;
+    }
+
+    header, footer {
+      position: fixed;
+      width: 100%;
+      text-align: center;
+      background-color: #f8f8f8;
+      padding: 10px 0;
+      z-index: 1000;
+    }
+
+    header {
+        top: 0;
+    }
+
+    footer {
+      bottom: 0;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+    }
+
+    nav ul li {
+      display: flex;
+      gap: 10px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      padding: 10px 20px;
+      border: 2px solid #333;
+      border-radius: 5px;
+      background-color: #f0f0f0;
+      transition: background-color 0.3s;
+    }
+
+    nav ul li a:hover {
+      background-color: #ddd;
+    }
+
+    figure {
+      margin: 0 auto;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a> <a href="resume.pdf" target="_blank">Resume</a> <a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="contact-info">
+      <h1>Contact Information</h1>
+      <p><strong>Name:</strong> Yovan Theophilus</p>
+      <p><strong>Address:</strong> 19359 Fadden Street, Rowland Heights, CA 91748</p>
+      <p><strong>Phone:</strong> +1(626)271-6726</p>
+      <p><strong>Email:</strong> <a href="School Email:ytheophi@uci.edu">ytheophi@uci.edu</a> or <a href="Personal Email:yovan.f.theophilus@gmail.com">yovan.f.theophilus@gmail.com</a></p>
+      <figure>
+        <img src="profile.jpg" alt="Photo of Yovan Theophilus" style="max-width: 300px; border-radius: 15px;">
+      </figure>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Yovan Theophilus.</p>
+    <p>Connect with me on <a href="https://linkedin.com/in/yovan-theophilus-b927b427a/" target="_blank">LinkedIn</a>.</p>
+  </footer>
+</body>
+
+</html>
